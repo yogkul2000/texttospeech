@@ -1,0 +1,20 @@
+<DOCTYPE html>
+    <html>
+        <body>
+            <h1>Download or Play audio</h1>
+            <form action = "/download" method = 'post'>
+             <input type = "submit" value = "Download" onclick="alert_download()">
+            </form>
+            <form action = "/play" method = 'post'>
+                <input type = "submit" value = "Play" onclick="alert_play()">
+               </form>
+            <script>
+                function alert_play() {
+                alert("Playing audio");
+                }
+                function alert_download() {
+                alert("File downloaded to current directory");
+                }
+            </script>
+        </body>
+    </html>
